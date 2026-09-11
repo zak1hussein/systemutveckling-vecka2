@@ -1,0 +1,9 @@
+Fråga 1: Vattenfallsmodellen vs agil metodik
+
+Vattenfallsmodellen är en linjär process där man går igenom faserna (krav → design → implementation → test → drift) i strikt ordning, en gång. Man planerar allt i förväg och går sällan tillbaka till tidigare faser.
+
+Agil metodik (t.ex. Scrum) jobbar istället i korta, upprepade cykler (sprintar) där man löpande bygger, testar och anpassar utifrån feedback.
+
+När använder man vad?
+Vattenfall passar när kraven är tydliga och stabila från början, t.ex. i vissa byggprojekt eller reglerade system (medicinteknik, flyg) där ändringar är dyra och riskabla.
+Agilt passar bättre när kraven är oklara eller kan förändras, vilket är vanligt i mjukvaruutveckling – man vill kunna justera kursen efter att användare testat en tidig version.

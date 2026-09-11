@@ -1,0 +1,13 @@
+# Fråga 2: Vad är ett Git-commit och varför är det viktigt?
+
+En **commit** är en sparad ögonblicksbild av dina filer vid en viss tidpunkt, tillsammans med ett meddelande som beskriver vad som ändrats. Varje commit får ett unikt ID, vilket gör att man alltid kan gå tillbaka till exakt det tillståndet senare.
+
+## Varför är det viktigt?
+
+- Man får en historik över allt som hänt i projektet
+- Man kan ångra misstag genom att gå tillbaka till en tidigare commit
+- Flera personer kan jobba parallellt utan att förlora varandras arbete
+
+## Verkligt scenario
+
+Säg att du av misstag raderar en viktig funktion i koden och committar den ändringen utan att märka det. Utan Git hade den koden varit borta för gott. Med Git kan du enkelt hitta commiten där funktionen fortfarande fanns och återställa den (t.ex. med `git revert` eller `git checkout`), istället för att behöva skriva om allt från minnet.
